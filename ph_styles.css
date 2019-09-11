@@ -1,11 +1,19 @@
+@charset "utf-8";
+
+@font-face{
+   font-family:Champagne;
+   src:url(cac_champagne.ttf) format('ttf'),
+      url(cac_champagne.woff) format('woff'),
+      url(cac_champagne.woff2) format('woff2');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 1
    
    PHCT Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Dominic Torres
+   Date:  9/11/19 
    
    Filename: ph_styles.css
 
@@ -14,17 +22,35 @@
 
 /* Structural Styles */
 
-
-
+/*step8*/
+p{
+   margin: 0px;
+   padding-top: 5px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+}
+body p{
+   font-size:1.1em;
+   text-align:center;
+}
 
 /* Navigation Styles */
 
-
+/*step13*/
+nav a:hover, nav a:active{
+   color: hsla(0 ,0%, 100%, 0.7);
+   background-color: hsla(0, 0%, 42%, 0.7);
+}
 
 
 /* Section Styles */
 
-
+/*step 15 & 16*/
+#play1{
+   color:hsl(240,100%,88%);
+   font-family: Champagne, cursive;
+}
 
 
 /* Description List Styles */
