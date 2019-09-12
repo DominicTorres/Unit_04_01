@@ -63,6 +63,9 @@ nav a:hover, nav a:active{
    color: hsla(0 ,0%, 100%, 0.7);
    background-color: hsla(0, 0%, 42%, 0.7);
 }
+header{
+   background-color: black;
+}
 
 
 /* Section Styles */
