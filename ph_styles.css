@@ -34,6 +34,11 @@
 
 /* Structural Styles */
 
+/*step5*/
+body{
+   background-color: hsl(91, 8%, 56%);
+}
+
 /*step8*/
 p{
    margin: 0px;
