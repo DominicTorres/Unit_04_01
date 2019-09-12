@@ -51,11 +51,18 @@ p{
    padding-left: 25px;
    padding-bottom: 25px;
 }
+/*step9*/
 body > p{
    font-size:1.1em;
    text-align:center;
 }
-
+/*step10*/
+address{
+   font-size:0.9em;
+   text-align:center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 /* Navigation Styles */
 
 /*step13*/
@@ -63,6 +70,7 @@ nav a:hover, nav a:active{
    color: hsla(0 ,0%, 100%, 0.7);
    background-color: hsla(0, 0%, 42%, 0.7);
 }
+/*step6*/
 header{
    background-color: black;
 }
